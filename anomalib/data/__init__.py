@@ -9,7 +9,7 @@ from typing import Union
 from omegaconf import DictConfig, ListConfig
 from pytorch_lightning import LightningDataModule
 
-from .btech import BTech
+#from .btech import BTech
 from .folder import Folder
 from .inference import InferenceDataset
 from .mvtec import MVTec
