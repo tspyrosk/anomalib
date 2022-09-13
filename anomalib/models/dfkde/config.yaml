@@ -5,6 +5,7 @@ dataset:
   task: classification
   normal_dir: good
   abnormal_dir: defects
+  normal_test_dir: None
   split_ratio: 0.3
   seed: 744
   image_size: 256
