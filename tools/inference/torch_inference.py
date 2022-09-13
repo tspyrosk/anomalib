@@ -77,6 +77,7 @@ def infer() -> None:
     for filename in filenames:
         image = read_image(filename)
         predictions = inferencer.predict(image=image)
+        print(predictions)
         output = visualizer.visualize_image(predictions)
 
         if args.output is None and args.show is False:
