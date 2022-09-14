@@ -11,17 +11,17 @@ from typing import List, Union
 from omegaconf import DictConfig, ListConfig
 from torch import load
 
-from anomalib.models.cflow import Cflow
-from anomalib.models.components import AnomalyModule
-from anomalib.models.dfkde import Dfkde
-from anomalib.models.dfm import Dfm
-from anomalib.models.draem import Draem
-from anomalib.models.fastflow import Fastflow
-from anomalib.models.ganomaly import Ganomaly
-from anomalib.models.padim import Padim
-from anomalib.models.patchcore import Patchcore
-from anomalib.models.reverse_distillation import ReverseDistillation
-from anomalib.models.stfpm import Stfpm
+from anomalib.anomalib.models.cflow import Cflow
+from anomalib.anomalib.models.components import AnomalyModule
+from anomalib.anomalib.models.dfkde import Dfkde
+from anomalib.anomalib.models.dfm import Dfm
+from anomalib.anomalib.models.draem import Draem
+from anomalib.anomalib.models.fastflow import Fastflow
+from anomalib.anomalib.models.ganomaly import Ganomaly
+from anomalib.anomalib.models.padim import Padim
+from anomalib.anomalib.models.patchcore import Patchcore
+from anomalib.anomalib.models.reverse_distillation import ReverseDistillation
+from anomalib.anomalib.models.stfpm import Stfpm
 
 __all__ = [
     "Cflow",
