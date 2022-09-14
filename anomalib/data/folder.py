@@ -22,13 +22,13 @@ from torch import Tensor
 from torch.utils.data import DataLoader, Dataset
 from torchvision.datasets.folder import IMG_EXTENSIONS
 
-from anomalib.data.inference import InferenceDataset
-from anomalib.data.utils import read_image
-from anomalib.data.utils.split import (
+from anomalib.anomalib.data.inference import InferenceDataset
+from anomalib.anomalib.data.utils import read_image
+from anomalib.anomalib.data.utils.split import (
     create_validation_set_from_test_set,
     split_normal_images_in_train_set,
 )
-from anomalib.pre_processing import PreProcessor
+from anomalib.anomalib.pre_processing import PreProcessor
 
 logger = logging.getLogger(__name__)
 
