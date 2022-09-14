@@ -47,13 +47,13 @@ from torch.utils.data import DataLoader
 from torch.utils.data.dataset import Dataset
 from torchvision.datasets.folder import VisionDataset
 
-from anomalib.data.inference import InferenceDataset
-from anomalib.data.utils import DownloadProgressBar, hash_check, read_image
-from anomalib.data.utils.split import (
+from anomalib.anomalib.data.inference import InferenceDataset
+from anomalib.anomalib.data.utils import DownloadProgressBar, hash_check, read_image
+from anomalib.anomalib.data.utils.split import (
     create_validation_set_from_test_set,
     split_normal_images_in_train_set,
 )
-from anomalib.pre_processing import PreProcessor
+from anomalib.anomalib.pre_processing import PreProcessor
 
 logger = logging.getLogger(__name__)
 
